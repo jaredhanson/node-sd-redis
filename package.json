@@ -1,0 +1,23 @@
+{
+  "name": "sd-redis",
+  "version": "0.0.0",
+  "description": "node-sd-redis =================",
+  "main": "./lib",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "debug": "~1.0.4",
+    "redis": "~0.12.1",
+    "node-uuid": "~1.4.1"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.20.1",
+    "proxyquire": "~1.0.1"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "author": "Jared Hanson"
+}
